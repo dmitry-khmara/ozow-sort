@@ -13,7 +13,7 @@ The sorting logic is implemented in the `Ozow.Sort.Sorter` class. It defines the
 
 The `Sort` method iterates through each character of the input string, filters out non-english characters, makes them lowercase and orders them.
 
-The sorting algorithm does not use a conventional method, such as quick sort or insertion sort, but takes advantage of the face that there is a limited set of possible characters. 
+The sorting algorithm does not use a conventional method, such as quick sort or insertion sort, but takes advantage of the fact that there is a limited set of possible characters. 
 
 There are 26 possible values each character may have (`a` to `z`). The algorithm counts how many times each character appears in the input string, and then outputs each character the same amount of times, in the alphabetic order.
 
